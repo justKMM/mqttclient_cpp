@@ -1,0 +1,1975 @@
+# depslib dependency file v1.0
+1678748002 source:d:\hbrs\sem4\embc++\template\src\lib.cpp
+	"EmbSysLib.cpp"
+	"Module/Rtos/Rtos.cpp"
+	"Module/USB/USB_Uart.cpp"
+	"Module/USB/USBinterfClassHID.cpp"
+	"Module/USB/USBdeviceSimpleIO.cpp"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\embsyslib.cpp
+	"EmbSysLib.h"
+	"System.cpp"
+	"Mcu_Types.cpp"
+	"Mcu.cpp"
+	"Std/Std.cpp"
+	"Std/Clock.cpp"
+	"Std/Crc.cpp"
+	"Std/DataPointer.cpp"
+	"Std/Fifo.cpp"
+	"Std/Sequence.cpp"
+	"Std/Report.cpp"
+	"Std/Flag.cpp"
+	"Std/SharedMem.cpp"
+	"Hardware/Common/Analog/Adc.cpp"
+	"Hardware/Common/Analog/Dac.cpp"
+	"Hardware/Common/Display/Type/Font.cpp"
+	"Hardware/Common/Display/Type/Bitmap.cpp"
+	"Hardware/Common/Display/DisplayChar.cpp"
+	"Hardware/Common/Display/DisplayGraphic.cpp"
+	"Hardware/Common/Encoder/Encoder.cpp"
+	"Hardware/Common/Encoder/Encoder_Emul.cpp"
+	"Hardware/Common/Ethernet/Ethernet.cpp"
+	"Hardware/Common/I2C/I2Cmaster.cpp"
+	"Hardware/Common/I2C/I2Cmaster_Emul.cpp"
+	"Hardware/Common/I2C/I2Cslave.cpp"
+	"Hardware/Common/Memory/Memory.cpp"
+	"Hardware/Common/Memory/MemoryImage.cpp"
+	"Hardware/Common/Net/Net.cpp"
+	"Hardware/Common/Net/NetStd.cpp"
+	"Hardware/Common/Net/NetSocket.cpp"
+	"Hardware/Common/Net/Eth/NetEthARP.cpp"
+	"Hardware/Common/Net/Eth/NetEthDHCP.cpp"
+	"Hardware/Common/Net/Eth/NetEthICMP.cpp"
+	"Hardware/Common/Net/Eth/NetEthIP.cpp"
+	"Hardware/Common/Net/Eth/NetEthTransport.cpp"
+	"Hardware/Common/Net/Eth/NetEthTCP.cpp"
+	"Hardware/Common/Net/Eth/NetEthUDP.cpp"
+	"Hardware/Common/Port/Port.cpp"
+	"Hardware/Common/Port/ExtInt.cpp"
+	"Hardware/Common/Rtc/Rtc.cpp"
+	"Hardware/Common/SPI/SPImaster.cpp"
+	"Hardware/Common/SPI/SPIslave.cpp"
+	"Hardware/Common/Timer/Timer.cpp"
+	"Hardware/Common/Touch/Touch.cpp"
+	"Hardware/Common/Uart/Uart.cpp"
+	"Hardware/Common/USB/USBdevice.cpp"
+	"Hardware/Common/USB/USBdevice/USBcontrol.cpp"
+	"Hardware/Common/USB/USBdevice/USBdescriptor.cpp"
+	"Hardware/Common/USB/USBdevice/USBendpoint.cpp"
+	"Hardware/Common/USB/USBdevice/USBinterface.cpp"
+	"Hardware/Common/USB/USBhost.cpp"
+	"Device/Analog/Analog.cpp"
+	"Device/Analog/AnalogIn.cpp"
+	"Device/Analog/AnalogInAdc.cpp"
+	"Device/Analog/AnalogOut.cpp"
+	"Device/Analog/AnalogOutDac.cpp"
+	"Device/Analog/AnalogOutPWM.cpp"
+	"Device/Digital/Digital.cpp"
+	"Device/Screen/ScreenChar.cpp"
+	"Device/Screen/ScreenGraphic.cpp"
+	"Device/Pointer/Pointer.cpp"
+	"Device/Task/TaskManager.cpp"
+	"Device/Terminal/Terminal.cpp"
+	"Control/DigitalButton.cpp"
+	"Control/DigitalEncoder.cpp"
+	"Control/DigitalEncoderJoystick.cpp"
+	"Control/DigitalEncoderRotaryknob.cpp"
+	"Control/DigitalIndicator.cpp"
+
+1718611302 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\embsyslib.h
+	"Mcu_Types.h"
+	"Hardware/MCU/System.h"
+	"Mcu.h"
+	"Std/Std.h"
+	"Std/Clock.h"
+	"Std/Crc.h"
+	"Std/DataPointer.h"
+	"Std/Fifo.h"
+	"Std/Sequence.h"
+	"Std/Report.h"
+	"Std/Flag.h"
+	"Std/SharedMem.h"
+	"Hardware/Common/Analog/Adc.h"
+	"Hardware/Common/Analog/Dac.h"
+	"Hardware/Common/Display/Type/Font.h"
+	"Hardware/Common/Display/Type/Bitmap.h"
+	"Hardware/Common/Display/DisplayChar.h"
+	"Hardware/Common/Display/DisplayGraphic.h"
+	"Hardware/Common/Encoder/Encoder.h"
+	"Hardware/Common/Encoder/Encoder_Emul.h"
+	"Hardware/Common/Ethernet/Ethernet.h"
+	"Hardware/Common/I2C/I2Cmaster.h"
+	"Hardware/Common/I2C/I2Cmaster_Emul.h"
+	"Hardware/Common/I2C/I2Cslave.h"
+	"Hardware/Common/Memory/Memory.h"
+	"Hardware/Common/Memory/MemoryImage.h"
+	"Hardware/Common/Net/Net.h"
+	"Hardware/Common/Net/NetStd.h"
+	"Hardware/Common/Net/NetSocket.h"
+	"Hardware/Common/Net/Eth/NetEthTransport.h"
+	"Hardware/Common/Net/Eth/NetEthARP.h"
+	"Hardware/Common/Net/Eth/NetEthDHCP.h"
+	"Hardware/Common/Net/Eth/NetEthICMP.h"
+	"Hardware/Common/Net/Eth/NetEthTCP.h"
+	"Hardware/Common/Net/Eth/NetEthUDP.h"
+	"Hardware/Common/Port/Port.h"
+	"Hardware/Common/Port/ExtInt.h"
+	"Hardware/Common/Rtc/Rtc.h"
+	"Hardware/Common/SPI/SPImaster.h"
+	"Hardware/Common/SPI/SPIslave.h"
+	"Hardware/Common/Timer/Timer.h"
+	"Hardware/Common/Touch/Touch.h"
+	"Hardware/Common/Uart/Uart.h"
+	"Hardware/Common/USB/USBdevice.h"
+	"Hardware/Common/USB/USBdevice/USBcontrol.h"
+	"Hardware/Common/USB/USBdevice/USBdescriptor.h"
+	"Hardware/Common/USB/USBdevice/USBendpoint.h"
+	"Hardware/Common/USB/USBdevice/USBinterface.h"
+	"Hardware/Common/USB/USBhost.h"
+	"Device/Analog/Analog.h"
+	"Device/Analog/AnalogIn.h"
+	"Device/Analog/AnalogInAdc.h"
+	"Device/Analog/AnalogOut.h"
+	"Device/Analog/AnalogOutDac.h"
+	"Device/Analog/AnalogOutPWM.h"
+	"Device/Digital/Digital.h"
+	"Device/Screen/ScreenChar.h"
+	"Device/Screen/ScreenGraphic.h"
+	"Device/Pointer/Pointer.h"
+	"Device/Task/TaskManager.h"
+	"Device/Terminal/Terminal.h"
+	"Control/DigitalButton.h"
+	"Control/DigitalEncoder.h"
+	"Control/DigitalEncoderJoystick.h"
+	"Control/DigitalEncoderRotaryknob.h"
+	"Control/DigitalIndicator.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\mcu_types.h
+	<inttypes.h>
+	<stdlib.h>
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\system.h
+	"Mcu_Types.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\mcu.h
+	"Std/Report.h"
+	"Hardware/ReportID_Hw.h"
+	"Sys/WSA.h"
+	"Sys/LibUSBwrapper.h"
+	"Sys/UDPserver.h"
+	"Src/Adc_Virtual.h"
+	"Src/Dac_Virtual.h"
+	"Src/DisplayGraphic_Virtual.h"
+	"Src/DisplayChar_Virtual.h"
+	"Src/Memory_Mcu.h"
+	"Src/NetWin.h"
+	"Src/NetWinTCP.h"
+	"Src/NetWinUDP.h"
+	"Src/Port_Virtual.h"
+	"Src/Rtc_Mcu.h"
+	"Src/Rtos_Mcu.h"
+	"Src/Timer_Mcu.h"
+	"Src/Touch_Virtual.h"
+	"Src/Uart_File.h"
+	"Src/Uart_Serial.h"
+	"Src/Uart_Stdio.h"
+	"Src/USBhost_Mcu.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\std\report.h
+	"Mcu_Types.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\reportid_hw.h
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\sys\wsa.h
+	<winsock2.h>
+	<ws2tcpip.h>
+	<stdio.h>
+	<ctype.h>
+	"Std/Report.h"
+	"Hardware/ReportID_Hw.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\sys\libusbwrapper.h
+	"Sys/libusb.h"
+	"Std/Report.h"
+	"Hardware/ReportID_Hw.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\sys\libusb.h
+	<basetsd.h>
+	<limits.h>
+	<stdint.h>
+	<sys/types.h>
+	<sys/time.h>
+	<time.h>
+	<windows.h>
+	<winsock.h>
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\sys\udpserver.h
+	"WSA.h"
+	"Std/Sequence.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\std\sequence.h
+	"Mcu_Types.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\adc_virtual.h
+	"Hardware/Common/Analog/Adc.h"
+	"Sys/UDPclient.h"
+	"Sys/UDPserver.h"
+	"Sys/UDP_Types.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\analog\adc.h
+	"Hardware/Common/Timer/Timer.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\timer\timer.h
+	"Mcu_Types.h"
+	"Std/Report.h"
+	"Std/Sequence.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\sys\udpclient.h
+	"WSA.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\sys\udp_types.h
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\dac_virtual.h
+	"Hardware/Common/Analog/Dac.h"
+	"Sys/UDPclient.h"
+	"Sys/UDPserver.h"
+	"Sys/UDP_Types.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\analog\dac.h
+	"Mcu_Types.h"
+	"Std/Report.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\displaygraphic_virtual.h
+	"Hardware/Common/Display/DisplayGraphic.h"
+	"Sys/UDPclient.h"
+	"Sys/UDPserver.h"
+	"Sys/UDP_Types.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\display\displaygraphic.h
+	"Std/Report.h"
+	"DisplayChar.h"
+	"Type/Font.h"
+	"Type/Bitmap.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\display\displaychar.h
+	"Mcu_Types.h"
+	"Std/Report.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\display\type\font.h
+	"Mcu_Types.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\display\type\bitmap.h
+	"Mcu_Types.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\displaychar_virtual.h
+	"Hardware/Common/Display/DisplayChar.h"
+	"Sys/UDPclient.h"
+	"Sys/UDPserver.h"
+	"Sys/UDP_Types.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\memory_mcu.h
+	"Hardware/Common/Memory/Memory.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\memory\memory.h
+	"Mcu_Types.h"
+	"Std/Report.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\netwin.h
+	"Hardware/Common/Net/Net.h"
+	"Hardware/Common/Net/NetSocket.h"
+	<windows.h>
+	<winsock.h>
+	<stdio.h>
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\net\net.h
+	"NetStd.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\net\netstd.h
+	"string.h"
+	<stdio.h>
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\net\netsocket.h
+	"NetStd.h"
+	"Net.h"
+	"Std/Std.h"
+	"Std/DataPointer.h"
+	"Std/Flag.h"
+	<stdarg.h>
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\std\std.h
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\std\datapointer.h
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\std\flag.h
+	"Hardware/MCU/System.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\netwintcp.h
+	"Hardware/Common/Net/Net.h"
+	<windows.h>
+	<winsock.h>
+	<stdio.h>
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\netwinudp.h
+	"Hardware/Common/Net/Net.h"
+	<windows.h>
+	<winsock.h>
+	<stdio.h>
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\port_virtual.h
+	"Hardware/Common/Port/Port.h"
+	"Sys/UDPclient.h"
+	"Sys/UDPserver.h"
+	"Sys/UDP_Types.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\port\port.h
+	"Mcu_Types.h"
+	"Std/Report.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\rtc_mcu.h
+	"Hardware/Common/Rtc/Rtc.h"
+	<time.h>
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\rtc\rtc.h
+	"Mcu_Types.h"
+	"Std/Report.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\rtos_mcu.h
+	<windows.h>
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\timer_mcu.h
+	"Hardware/Common/Timer/Timer.h"
+	<windows.h>
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\touch_virtual.h
+	"Hardware/Common/Touch/Touch.h"
+	"Sys/UDPclient.h"
+	"Sys/UDPserver.h"
+	"Sys/UDP_Types.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\touch\touch.h
+	"Mcu_Types.h"
+	"Std/Report.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\uart_file.h
+	"Hardware/Common/Uart/Uart.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\uart\uart.h
+	"Mcu_Types.h"
+	"Std/Fifo.h"
+	"Std/Report.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\std\fifo.h
+	"Hardware/MCU/System.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\uart_serial.h
+	"Hardware/Common/Uart/Uart.h"
+	<windows.h>
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\uart_stdio.h
+	"Hardware/Common/Uart/Uart.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\usbhost_mcu.h
+	<windows.h>
+	"Hardware/Common/USB/USBhost.h"
+	"Sys/libusb.h"
+	"Sys/LibUSBwrapper.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\usb\usbhost.h
+	"Mcu_Types.h"
+	"Std/Report.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\std\clock.h
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\std\crc.h
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\std\sharedmem.h
+	<string.h>
+	"Hardware/MCU/System.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\encoder\encoder.h
+	"Hardware/Common/Port/Port.h"
+	"Hardware/Common/Timer/Timer.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\encoder\encoder_emul.h
+	"Hardware/Common/Encoder/Encoder.h"
+	"Hardware/Common/Port/Port.h"
+	"Hardware/Common/Timer/Timer.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\ethernet\ethernet.h
+	"Hardware/Common/Net/NetStd.h"
+	"Hardware/Common/Net/Net.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\i2c\i2cmaster.h
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\i2c\i2cmaster_emul.h
+	"Hardware/Common/Port/Port.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\i2c\i2cslave.h
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\memory\memoryimage.h
+	"Mcu_Types.h"
+	"Std/Report.h"
+	"Memory.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\net\eth\netethtransport.h
+	"Hardware/Common/Net/Net.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\net\eth\netetharp.h
+	"Hardware/Common/Ethernet/Ethernet.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\net\eth\netethdhcp.h
+	"NetEthUDP.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\net\eth\netethudp.h
+	"Hardware/Common/Net/Net.h"
+	"Hardware/Common/Net/Eth/NetEthIP.h"
+	"Hardware/Common/Net/Eth/NetEthTransport.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\net\eth\netethip.h
+	"Hardware/Common/Ethernet/Ethernet.h"
+	"Hardware/Common/Timer/Timer.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\net\eth\netethicmp.h
+	"NetEthIP.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\net\eth\netethtcp.h
+	"Hardware/Common/Net/Net.h"
+	"Hardware/Common/Net/Eth/NetEthIP.h"
+	"Hardware/Common/Net/Eth/NetEthTransport.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\port\extint.h
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\spi\spimaster.h
+	"Hardware/Common/Port/Port.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\spi\spislave.h
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\usb\usbdevice.h
+	"Mcu_Types.h"
+	"Std/Report.h"
+	"USBdevice/USBdescriptor.h"
+	"USBdevice/USBendpoint.h"
+	"USBdevice/USBcontrol.h"
+	"USBdevice/USBinterface.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\usb\usbdevice\usbdescriptor.h
+	"Mcu_Types.h"
+	"Std/DataPointer.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\usb\usbdevice\usbendpoint.h
+	"Mcu_Types.h"
+	"Std/DataPointer.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\usb\usbdevice\usbcontrol.h
+	"Mcu_Types.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\usb\usbdevice\usbinterface.h
+	"Mcu_Types.h"
+	"Std/DataPointer.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\device\analog\analog.h
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\device\analog\analogin.h
+	"Analog.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\device\analog\analoginadc.h
+	"AnalogIn.h"
+	"Hardware/Common/Analog/Adc.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\device\analog\analogout.h
+	"Analog.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\device\analog\analogoutdac.h
+	"AnalogOut.h"
+	"Hardware/Common/Analog/Dac.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\device\analog\analogoutpwm.h
+	"AnalogOut.h"
+	"Hardware/Common/Timer/Timer.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\device\digital\digital.h
+	"Hardware/Common/Port/Port.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\device\screen\screenchar.h
+	"Hardware/Common/Display/DisplayChar.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\device\screen\screengraphic.h
+	"Hardware/Common/Display/DisplayGraphic.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\device\pointer\pointer.h
+	"Hardware/Common/Touch/Touch.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\device\task\taskmanager.h
+	"Hardware/Common/Timer/Timer.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\device\terminal\terminal.h
+	"Hardware/Common/Uart/Uart.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\control\digitalbutton.h
+	"Device/Digital/Digital.h"
+	"Device/Task/TaskManager.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\control\digitalencoder.h
+	"Device/Task/TaskManager.h"
+	"Device/Digital/Digital.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\control\digitalencoderjoystick.h
+	"Control/DigitalEncoder.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\control\digitalencoderrotaryknob.h
+	"Control/DigitalEncoder.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\control\digitalindicator.h
+	"Device/Digital/Digital.h"
+	"Device/Task/TaskManager.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\system.cpp
+	<windows.h>
+	<stdio.h>
+	<ctype.h>
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\mcu_types.cpp
+	"Mcu.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\mcu.cpp
+	"Mcu.h"
+	"Sys/WSA.cpp"
+	"Sys/LibUSBwrapper.cpp"
+	"Sys/UDPclient.cpp"
+	"Sys/UDPserver.cpp"
+	"Src/Adc_Virtual.cpp"
+	"Src/Dac_Virtual.cpp"
+	"Src/DisplayChar_Virtual.cpp"
+	"Src/DisplayGraphic_Virtual.cpp"
+	"Src/Memory_Mcu.cpp"
+	"Src/NetWin.cpp"
+	"Src/NetWinTCP.cpp"
+	"Src/NetWinUDP.cpp"
+	"Src/Port_Virtual.cpp"
+	"Src/Rtc_Mcu.cpp"
+	"Src/Rtos_Mcu.cpp"
+	"Src/Timer_Mcu.cpp"
+	"Src/Touch_Virtual.cpp"
+	"Src/Uart_File.cpp"
+	"Src/Uart_Serial.cpp"
+	"Src/Uart_Stdio.cpp"
+	"Src/USBhost_Mcu.cpp"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\sys\wsa.cpp
+	"WSA.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\sys\libusbwrapper.cpp
+	"libusb.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\sys\udpclient.cpp
+	"UDPclient.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\sys\udpserver.cpp
+	"UDPserver.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\adc_virtual.cpp
+	"Adc_Virtual.h"
+	"Hardware/ReportID_Hw.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\dac_virtual.cpp
+	"Dac_Virtual.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\displaychar_virtual.cpp
+	"DisplayChar_Virtual.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\displaygraphic_virtual.cpp
+	"DisplayGraphic_Virtual.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\memory_mcu.cpp
+	"Memory_Mcu.h"
+	"Hardware/ReportID_Hw.h"
+	<string.h>
+	<stdio.h>
+	<sys/stat.h>
+	<fcntl.h>
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\netwin.cpp
+	"NetWin.h"
+	<windows.h>
+	<winsock.h>
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\netwintcp.cpp
+	"NetWinTCP.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\netwinudp.cpp
+	"NetWinUDP.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\port_virtual.cpp
+	"Port_Virtual.h"
+	"Sys/UDP_Types.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\rtc_mcu.cpp
+	"Rtc_Mcu.h"
+	"Hardware/ReportID_Hw.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\rtos_mcu.cpp
+	"Rtos_Mcu.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\timer_mcu.cpp
+	"Timer_Mcu.h"
+	"Hardware/ReportID_Hw.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\touch_virtual.cpp
+	"Touch_Virtual.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\uart_file.cpp
+	"Uart_File.h"
+	"Hardware/ReportID_Hw.h"
+	<string.h>
+	<stdio.h>
+	<sys/stat.h>
+	<fcntl.h>
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\uart_serial.cpp
+	"Uart_Serial.h"
+	"Hardware/ReportID_Hw.h"
+	<stdio.h>
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\uart_stdio.cpp
+	"Uart_Stdio.h"
+	"Hardware/ReportID_Hw.h"
+	<stdio.h>
+	<conio.h>
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\mcu\virtual\src\usbhost_mcu.cpp
+	<stdio.h>
+	"Sys/libusb.h"
+	"Hardware/ReportID_Hw.h"
+	"USBhost_Mcu.h"
+	<iostream>
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\std\std.cpp
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\std\clock.cpp
+	"Clock.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\std\crc.cpp
+	"Crc.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\std\datapointer.cpp
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\std\fifo.cpp
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\std\sequence.cpp
+	"Sequence.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\std\report.cpp
+	"Report.h"
+	"Hardware/MCU/System.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\std\flag.cpp
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\std\sharedmem.cpp
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\analog\adc.cpp
+	"Adc.h"
+	"Hardware/MCU/System.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\analog\dac.cpp
+	"Dac.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\display\type\font.cpp
+	"Font.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\display\type\bitmap.cpp
+	"Bitmap.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\display\displaychar.cpp
+	"DisplayChar.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\display\displaygraphic.cpp
+	"DisplayGraphic.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\encoder\encoder.cpp
+	"Encoder.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\encoder\encoder_emul.cpp
+	"Encoder.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\ethernet\ethernet.cpp
+	"Hardware/Common/Net/Eth/NetEthARP.h"
+	"Hardware/Common/Net/Eth/NetEthIP.h"
+	"Ethernet.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\i2c\i2cmaster.cpp
+	"I2Cmaster.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\i2c\i2cmaster_emul.cpp
+	"I2Cmaster_Emul.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\i2c\i2cslave.cpp
+	"I2Cslave.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\memory\memory.cpp
+	"Memory.h"
+	"Hardware/ReportID_Hw.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\memory\memoryimage.cpp
+	"MemoryImage.h"
+	"Hardware/ReportID_Hw.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\net\net.cpp
+	"Net.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\net\netstd.cpp
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\net\netsocket.cpp
+	"NetSocket.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\net\eth\netetharp.cpp
+	"NetEthARP.h"
+	"NetEthTCP.h"
+	"NetEthUDP.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\net\eth\netethdhcp.cpp
+	"NetEthDHCP.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\net\eth\netethicmp.cpp
+	"NetEthICMP.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\net\eth\netethip.cpp
+	"NetEthIP.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\net\eth\netethtransport.cpp
+	"NetEthTransport.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\net\eth\netethtcp.cpp
+	"NetEthTCP.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\net\eth\netethudp.cpp
+	"NetEthUDP.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\port\port.cpp
+	"Port.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\port\extint.cpp
+	"ExtInt.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\rtc\rtc.cpp
+	"Rtc.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\spi\spimaster.cpp
+	"SPImaster.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\spi\spislave.cpp
+	"SPIslave.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\timer\timer.cpp
+	"Timer.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\touch\touch.cpp
+	"Touch.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\uart\uart.cpp
+	"Uart.h"
+	"Hardware/ReportID_Hw.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\usb\usbdevice.cpp
+	"USBdevice.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\usb\usbdevice\usbcontrol.cpp
+	"../USBdevice.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\usb\usbdevice\usbdescriptor.cpp
+	"USBdescriptor.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\usb\usbdevice\usbendpoint.cpp
+	"../USBdevice.h"
+	"Std/Std.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\usb\usbdevice\usbinterface.cpp
+	"../USBdevice.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\hardware\common\usb\usbhost.cpp
+	"USBhost.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\device\analog\analog.cpp
+	"Analog.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\device\analog\analogin.cpp
+	"AnalogIn.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\device\analog\analoginadc.cpp
+	"AnalogInAdc.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\device\analog\analogout.cpp
+	"AnalogOut.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\device\analog\analogoutdac.cpp
+	"AnalogOutDac.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\device\analog\analogoutpwm.cpp
+	"AnalogOutPWM.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\device\digital\digital.cpp
+	"Digital.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\device\screen\screenchar.cpp
+	<stdio.h>
+	<stdarg.h>
+	"ScreenChar.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\device\screen\screengraphic.cpp
+	<stdio.h>
+	<stdarg.h>
+	<math.h>
+	"ScreenGraphic.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\device\pointer\pointer.cpp
+	"Pointer.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\device\task\taskmanager.cpp
+	"TaskManager.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\device\terminal\terminal.cpp
+	<stdarg.h>
+	<string.h>
+	<stdio.h>
+	"Terminal.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\control\digitalbutton.cpp
+	"DigitalButton.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\control\digitalencoder.cpp
+	"DigitalEncoder.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\control\digitalencoderjoystick.cpp
+	"DigitalEncoderJoystick.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\control\digitalencoderrotaryknob.cpp
+	"DigitalEncoderRotaryknob.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\control\digitalindicator.cpp
+	"DigitalIndicator.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\module\rtos\rtos.cpp
+	"Rtos.h"
+	"Std/Report.h"
+	"Module/ReportID_Mod.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\module\rtos\rtos.h
+	"Mcu_Types.h"
+	"Src/Rtos_Mcu.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\module\reportid_mod.h
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\module\usb\usb_uart.cpp
+	"USB_Uart.h"
+	"Std/Report.h"
+	"Std/DataPointer.h"
+	"Module/ReportID_Mod.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\module\usb\usb_uart.h
+	"Mcu_Types.h"
+	"Hardware/Common/USB/USBdevice.h"
+	"Hardware/Common/Uart/Uart.h"
+	"Std/Flag.h"
+	"Std/DataPointer.h"
+	"Module/ReportID_Mod.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\module\usb\usbinterfclasshid.cpp
+	"USBinterfClassHID.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\module\usb\usbinterfclasshid.h
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\module\usb\usbdevicesimpleio.cpp
+	"USBdeviceSimpleIO.h"
+
+1710887041 d:\hbrs\sem4\embc++\embsyslib\embsyslib-01.04.00\src\module\usb\usbdevicesimpleio.h
+
+1714946664 source:d:\hbrs\sem4\embc++\template\src\main.cpp
+	"Bargraf.h"
+	"Nummer.h"
+	"Anzeige.h"
+	<iostream>
+	<string>
+	"embsyslib.h"
+	"module/rtos/rtos.h"
+	"reporthandler.h"
+	"config.h"
+
+1673389486 d:\hbrs\sem4\embc++\template\src\board\virtual\reporthandler.h
+	<windows.h>
+
+1712338270 d:\hbrs\sem4\embc++\template\src\board\virtual\config.h
+
+1714946963 source:d:\hbrs\sem4\embc++\template\src\bargraf.cpp
+	<iostream>
+	<string>
+	"Bargraf.h"
+	"Anzeige.h"
+	"EmbSysLib.h"
+
+1714946413 d:\hbrs\sem4\embc++\template\src\bargraf.h
+	"Anzeige.h"
+
+1714380306 source:d:\hbrs\sem4\embc++\template\src\test.cpp
+	"test.h"
+
+1714380306 d:\hbrs\sem4\embc++\template\src\test.h
+
+1714908070 d:\hbrs\sem4\embc++\template\src\anzeige.h
+	"EmbSysLib.h"
+	<string>
+
+1714906037 source:d:\hbrs\sem4\embc++\template\src\wort.cpp
+	"Wort.h"
+
+1714906230 d:\hbrs\sem4\embc++\template\src\wort.h
+	"Anzeige.h"
+
+1714908060 source:d:\hbrs\sem4\embc++\template\src\anzeige.cpp
+	"Anzeige.h"
+	"EmbSysLib.h"
+	<iostream>
+
+1714946521 source:d:\hbrs\sem4\embc++\template\src\nummer.cpp
+	<iostream>
+	<string>
+	"Nummer.h"
+	"Anzeige.h"
+	"EmbSysLib.h"
+
+1714942015 d:\hbrs\sem4\embc++\template\src\nummer.h
+	"Anzeige.h"
+
+1714908060 source:d:\hbrs\sem4\embc++\mqttproject\src\anzeige.cpp
+	"Anzeige.h"
+	"EmbSysLib.h"
+	<iostream>
+
+1714908070 d:\hbrs\sem4\embc++\mqttproject\src\anzeige.h
+	"EmbSysLib.h"
+	<string>
+
+1714987356 source:d:\hbrs\sem4\embc++\mqttproject\src\bargraf.cpp
+	<iostream>
+	<string>
+	"Bargraf.h"
+	"Anzeige.h"
+	"EmbSysLib.h"
+
+1714987306 d:\hbrs\sem4\embc++\mqttproject\src\bargraf.h
+	"Anzeige.h"
+
+1717690704 source:d:\hbrs\sem4\embc++\mqttproject\src\lib.cpp
+	"EmbSysLib.cpp"
+	"Module/Rtos/Rtos.cpp"
+	"Module/USB/USB_Uart.cpp"
+	"Module/USB/USBinterfClassHID.cpp"
+	"Module/USB/USBdeviceSimpleIO.cpp"
+
+1714946521 source:d:\hbrs\sem4\embc++\mqttproject\src\nummer.cpp
+	<iostream>
+	<string>
+	"Nummer.h"
+	"Anzeige.h"
+	"EmbSysLib.h"
+
+1714942015 d:\hbrs\sem4\embc++\mqttproject\src\nummer.h
+	"Anzeige.h"
+
+1714380306 source:d:\hbrs\sem4\embc++\mqttproject\src\test.cpp
+	"test.h"
+
+1714380306 d:\hbrs\sem4\embc++\mqttproject\src\test.h
+
+1714906037 source:d:\hbrs\sem4\embc++\mqttproject\src\wort.cpp
+	"Wort.h"
+
+1714906230 d:\hbrs\sem4\embc++\mqttproject\src\wort.h
+	"Anzeige.h"
+
+1719667902 source:d:\hbrs\sem4\embc++\mqttproject\src\main.cpp
+	<iostream>
+	"embsyslib.h"
+	"module/rtos/rtos.h"
+	"reporthandler.h"
+	"configHwNet.h"
+	"Application.h"
+	<string>
+	<vector>
+
+1673389486 d:\hbrs\sem4\embc++\mqttproject\src\board\virtual\reporthandler.h
+	<windows.h>
+
+1715587513 d:\hbrs\sem4\embc++\mqttproject\src\board\virtual\config.h
+
+1718123289 source:d:\hbrs\sem4\embc++\mqttproject\src\connect.cpp
+	"connect.h"
+
+1718123289 d:\hbrs\sem4\embc++\mqttproject\src\connect.h
+
+1719668874 source:d:\hbrs\sem4\embc++\mqttproject\src\application.cpp
+	"Application.h"
+
+1719668492 d:\hbrs\sem4\embc++\mqttproject\src\application.h
+	"CustomMessage.h"
+	"CustomMessageItem.h"
+	"CustomString.h"
+	"CustomByte.h"
+	<iostream>
+	<string>
+	"EmbSysLib.h"
+
+1719435101 d:\hbrs\sem4\embc++\mqttproject\src\board\virtual\confighwnet.h
+
+1718639758 source:d:\hbrs\sem4\embc++\mqttproject\src\messageitem.cpp
+	"MessageItem.h"
+
+1718892374 d:\hbrs\sem4\embc++\mqttproject\src\messageitem.h
+	<iostream>
+	<string>
+	"EmbSysLib.h"
+	"Message.h"
+
+1718573098 d:\hbrs\sem4\embc++\mqttproject\src\concatenate.h
+	<array>
+	<algorithm>
+
+1718618417 d:\hbrs\sem4\embc++\mqttproject\src\string.h
+	"Message.h"
+	"MessageItem.h"
+	<string>
+
+1718892259 d:\hbrs\sem4\embc++\mqttproject\src\message.h
+	<string>
+	"MessageItem.h"
+	"EmbSysLib.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\embsyslib.h
+	"Mcu_Types.h"
+	"Hardware/MCU/System.h"
+	"Mcu.h"
+	"Std/Std.h"
+	"Std/Clock.h"
+	"Std/Crc.h"
+	"Std/DataPointer.h"
+	"Std/Fifo.h"
+	"Std/Sequence.h"
+	"Std/Report.h"
+	"Std/Flag.h"
+	"Std/SharedMem.h"
+	"Hardware/Common/Analog/Adc.h"
+	"Hardware/Common/Analog/Dac.h"
+	"Hardware/Common/Display/Type/Font.h"
+	"Hardware/Common/Display/Type/Bitmap.h"
+	"Hardware/Common/Display/DisplayChar.h"
+	"Hardware/Common/Display/DisplayGraphic.h"
+	"Hardware/Common/Encoder/Encoder.h"
+	"Hardware/Common/Encoder/Encoder_Emul.h"
+	"Hardware/Common/Ethernet/Ethernet.h"
+	"Hardware/Common/I2C/I2Cmaster.h"
+	"Hardware/Common/I2C/I2Cmaster_Emul.h"
+	"Hardware/Common/I2C/I2Cslave.h"
+	"Hardware/Common/Memory/Memory.h"
+	"Hardware/Common/Memory/MemoryImage.h"
+	"Hardware/Common/Net/Net.h"
+	"Hardware/Common/Net/NetStd.h"
+	"Hardware/Common/Net/NetSocket.h"
+	"Hardware/Common/Net/Eth/NetEthTransport.h"
+	"Hardware/Common/Net/Eth/NetEthARP.h"
+	"Hardware/Common/Net/Eth/NetEthDHCP.h"
+	"Hardware/Common/Net/Eth/NetEthICMP.h"
+	"Hardware/Common/Net/Eth/NetEthTCP.h"
+	"Hardware/Common/Net/Eth/NetEthUDP.h"
+	"Hardware/Common/Port/Port.h"
+	"Hardware/Common/Port/ExtInt.h"
+	"Hardware/Common/Rtc/Rtc.h"
+	"Hardware/Common/SPI/SPImaster.h"
+	"Hardware/Common/SPI/SPIslave.h"
+	"Hardware/Common/Timer/Timer.h"
+	"Hardware/Common/Touch/Touch.h"
+	"Hardware/Common/Uart/Uart.h"
+	"Hardware/Common/USB/USBdevice.h"
+	"Hardware/Common/USB/USBdevice/USBcontrol.h"
+	"Hardware/Common/USB/USBdevice/USBdescriptor.h"
+	"Hardware/Common/USB/USBdevice/USBendpoint.h"
+	"Hardware/Common/USB/USBdevice/USBinterface.h"
+	"Hardware/Common/USB/USBhost.h"
+	"Device/Analog/Analog.h"
+	"Device/Analog/AnalogIn.h"
+	"Device/Analog/AnalogInAdc.h"
+	"Device/Analog/AnalogOut.h"
+	"Device/Analog/AnalogOutDac.h"
+	"Device/Analog/AnalogOutPWM.h"
+	"Device/Digital/Digital.h"
+	"Device/Screen/ScreenChar.h"
+	"Device/Screen/ScreenGraphic.h"
+	"Device/Pointer/Pointer.h"
+	"Device/Task/TaskManager.h"
+	"Device/Terminal/Terminal.h"
+	"Control/DigitalButton.h"
+	"Control/DigitalEncoder.h"
+	"Control/DigitalEncoderJoystick.h"
+	"Control/DigitalEncoderRotaryknob.h"
+	"Control/DigitalIndicator.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\mcu_types.h
+	<inttypes.h>
+	<stdlib.h>
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\system.h
+	"Mcu_Types.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\mcu.h
+	"Std/Report.h"
+	"Hardware/ReportID_Hw.h"
+	"Sys/WSA.h"
+	"Sys/LibUSBwrapper.h"
+	"Sys/UDPserver.h"
+	"Src/Adc_Virtual.h"
+	"Src/Dac_Virtual.h"
+	"Src/DisplayGraphic_Virtual.h"
+	"Src/DisplayChar_Virtual.h"
+	"Src/Memory_Mcu.h"
+	"Src/NetWin.h"
+	"Src/NetWinTCP.h"
+	"Src/NetWinUDP.h"
+	"Src/Port_Virtual.h"
+	"Src/Rtc_Mcu.h"
+	"Src/Rtos_Mcu.h"
+	"Src/Timer_Mcu.h"
+	"Src/Touch_Virtual.h"
+	"Src/Uart_File.h"
+	"Src/Uart_Serial.h"
+	"Src/Uart_Stdio.h"
+	"Src/USBhost_Mcu.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\std\report.h
+	"Mcu_Types.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\reportid_hw.h
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\sys\wsa.h
+	<winsock2.h>
+	<ws2tcpip.h>
+	<stdio.h>
+	<ctype.h>
+	"Std/Report.h"
+	"Hardware/ReportID_Hw.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\sys\libusbwrapper.h
+	"Sys/libusb.h"
+	"Std/Report.h"
+	"Hardware/ReportID_Hw.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\sys\libusb.h
+	<basetsd.h>
+	<limits.h>
+	<stdint.h>
+	<sys/types.h>
+	<sys/time.h>
+	<time.h>
+	<windows.h>
+	<winsock.h>
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\sys\udpserver.h
+	"WSA.h"
+	"Std/Sequence.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\std\sequence.h
+	"Mcu_Types.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\adc_virtual.h
+	"Hardware/Common/Analog/Adc.h"
+	"Sys/UDPclient.h"
+	"Sys/UDPserver.h"
+	"Sys/UDP_Types.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\analog\adc.h
+	"Hardware/Common/Timer/Timer.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\timer\timer.h
+	"Mcu_Types.h"
+	"Std/Report.h"
+	"Std/Sequence.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\sys\udpclient.h
+	"WSA.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\sys\udp_types.h
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\dac_virtual.h
+	"Hardware/Common/Analog/Dac.h"
+	"Sys/UDPclient.h"
+	"Sys/UDPserver.h"
+	"Sys/UDP_Types.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\analog\dac.h
+	"Mcu_Types.h"
+	"Std/Report.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\displaygraphic_virtual.h
+	"Hardware/Common/Display/DisplayGraphic.h"
+	"Sys/UDPclient.h"
+	"Sys/UDPserver.h"
+	"Sys/UDP_Types.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\display\displaygraphic.h
+	"Std/Report.h"
+	"DisplayChar.h"
+	"Type/Font.h"
+	"Type/Bitmap.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\display\displaychar.h
+	"Mcu_Types.h"
+	"Std/Report.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\display\type\font.h
+	"Mcu_Types.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\display\type\bitmap.h
+	"Mcu_Types.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\displaychar_virtual.h
+	"Hardware/Common/Display/DisplayChar.h"
+	"Sys/UDPclient.h"
+	"Sys/UDPserver.h"
+	"Sys/UDP_Types.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\memory_mcu.h
+	"Hardware/Common/Memory/Memory.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\memory\memory.h
+	"Mcu_Types.h"
+	"Std/Report.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\netwin.h
+	"Hardware/Common/Net/Net.h"
+	"Hardware/Common/Net/NetSocket.h"
+	<windows.h>
+	<winsock.h>
+	<stdio.h>
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\net.h
+	"NetStd.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\netstd.h
+	"string.h"
+	<stdio.h>
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\netsocket.h
+	"NetStd.h"
+	"Net.h"
+	"Std/Std.h"
+	"Std/DataPointer.h"
+	"Std/Flag.h"
+	<stdarg.h>
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\std\std.h
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\std\datapointer.h
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\std\flag.h
+	"Hardware/MCU/System.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\netwintcp.h
+	"Hardware/Common/Net/Net.h"
+	<windows.h>
+	<winsock.h>
+	<stdio.h>
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\netwinudp.h
+	"Hardware/Common/Net/Net.h"
+	<windows.h>
+	<winsock.h>
+	<stdio.h>
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\port_virtual.h
+	"Hardware/Common/Port/Port.h"
+	"Sys/UDPclient.h"
+	"Sys/UDPserver.h"
+	"Sys/UDP_Types.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\port\port.h
+	"Mcu_Types.h"
+	"Std/Report.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\rtc_mcu.h
+	"Hardware/Common/Rtc/Rtc.h"
+	<time.h>
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\rtc\rtc.h
+	"Mcu_Types.h"
+	"Std/Report.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\rtos_mcu.h
+	<windows.h>
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\timer_mcu.h
+	"Hardware/Common/Timer/Timer.h"
+	<windows.h>
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\touch_virtual.h
+	"Hardware/Common/Touch/Touch.h"
+	"Sys/UDPclient.h"
+	"Sys/UDPserver.h"
+	"Sys/UDP_Types.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\touch\touch.h
+	"Mcu_Types.h"
+	"Std/Report.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\uart_file.h
+	"Hardware/Common/Uart/Uart.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\uart\uart.h
+	"Mcu_Types.h"
+	"Std/Fifo.h"
+	"Std/Report.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\std\fifo.h
+	"Hardware/MCU/System.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\uart_serial.h
+	"Hardware/Common/Uart/Uart.h"
+	<windows.h>
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\uart_stdio.h
+	"Hardware/Common/Uart/Uart.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\usbhost_mcu.h
+	<windows.h>
+	"Hardware/Common/USB/USBhost.h"
+	"Sys/libusb.h"
+	"Sys/LibUSBwrapper.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\usb\usbhost.h
+	"Mcu_Types.h"
+	"Std/Report.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\std\clock.h
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\std\crc.h
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\std\sharedmem.h
+	<string.h>
+	"Hardware/MCU/System.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\encoder\encoder.h
+	"Hardware/Common/Port/Port.h"
+	"Hardware/Common/Timer/Timer.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\encoder\encoder_emul.h
+	"Hardware/Common/Encoder/Encoder.h"
+	"Hardware/Common/Port/Port.h"
+	"Hardware/Common/Timer/Timer.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\ethernet\ethernet.h
+	"Hardware/Common/Net/NetStd.h"
+	"Hardware/Common/Net/Net.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\i2c\i2cmaster.h
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\i2c\i2cmaster_emul.h
+	"Hardware/Common/Port/Port.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\i2c\i2cslave.h
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\memory\memoryimage.h
+	"Mcu_Types.h"
+	"Std/Report.h"
+	"Memory.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\eth\netethtransport.h
+	"Hardware/Common/Net/Net.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\eth\netetharp.h
+	"Hardware/Common/Ethernet/Ethernet.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\eth\netethdhcp.h
+	"NetEthUDP.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\eth\netethudp.h
+	"Hardware/Common/Net/Net.h"
+	"Hardware/Common/Net/Eth/NetEthIP.h"
+	"Hardware/Common/Net/Eth/NetEthTransport.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\eth\netethip.h
+	"Hardware/Common/Ethernet/Ethernet.h"
+	"Hardware/Common/Timer/Timer.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\eth\netethicmp.h
+	"NetEthIP.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\eth\netethtcp.h
+	"Hardware/Common/Net/Net.h"
+	"Hardware/Common/Net/Eth/NetEthIP.h"
+	"Hardware/Common/Net/Eth/NetEthTransport.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\port\extint.h
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\spi\spimaster.h
+	"Hardware/Common/Port/Port.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\spi\spislave.h
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\usb\usbdevice.h
+	"Mcu_Types.h"
+	"Std/Report.h"
+	"USBdevice/USBdescriptor.h"
+	"USBdevice/USBendpoint.h"
+	"USBdevice/USBcontrol.h"
+	"USBdevice/USBinterface.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\usb\usbdevice\usbdescriptor.h
+	"Mcu_Types.h"
+	"Std/DataPointer.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\usb\usbdevice\usbendpoint.h
+	"Mcu_Types.h"
+	"Std/DataPointer.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\usb\usbdevice\usbcontrol.h
+	"Mcu_Types.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\usb\usbdevice\usbinterface.h
+	"Mcu_Types.h"
+	"Std/DataPointer.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\device\analog\analog.h
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\device\analog\analogin.h
+	"Analog.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\device\analog\analoginadc.h
+	"AnalogIn.h"
+	"Hardware/Common/Analog/Adc.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\device\analog\analogout.h
+	"Analog.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\device\analog\analogoutdac.h
+	"AnalogOut.h"
+	"Hardware/Common/Analog/Dac.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\device\analog\analogoutpwm.h
+	"AnalogOut.h"
+	"Hardware/Common/Timer/Timer.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\device\digital\digital.h
+	"Hardware/Common/Port/Port.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\device\screen\screenchar.h
+	"Hardware/Common/Display/DisplayChar.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\device\screen\screengraphic.h
+	"Hardware/Common/Display/DisplayGraphic.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\device\pointer\pointer.h
+	"Hardware/Common/Touch/Touch.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\device\task\taskmanager.h
+	"Hardware/Common/Timer/Timer.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\device\terminal\terminal.h
+	"Hardware/Common/Uart/Uart.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\control\digitalbutton.h
+	"Device/Digital/Digital.h"
+	"Device/Task/TaskManager.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\control\digitalencoder.h
+	"Device/Task/TaskManager.h"
+	"Device/Digital/Digital.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\control\digitalencoderjoystick.h
+	"Control/DigitalEncoder.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\control\digitalencoderrotaryknob.h
+	"Control/DigitalEncoder.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\control\digitalindicator.h
+	"Device/Digital/Digital.h"
+	"Device/Task/TaskManager.h"
+
+1719219463 source:d:\hbrs\sem4\embc++\mqttproject\src\custombyte.cpp
+	"CustomByte.h"
+
+1719216926 d:\hbrs\sem4\embc++\mqttproject\src\custombyte.h
+	"CustomMessage.h"
+	"CustomMessageItem.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\embsyslib.cpp
+	"EmbSysLib.h"
+	"System.cpp"
+	"Mcu_Types.cpp"
+	"Mcu.cpp"
+	"Std/Std.cpp"
+	"Std/Clock.cpp"
+	"Std/Crc.cpp"
+	"Std/DataPointer.cpp"
+	"Std/Fifo.cpp"
+	"Std/Sequence.cpp"
+	"Std/Report.cpp"
+	"Std/Flag.cpp"
+	"Std/SharedMem.cpp"
+	"Hardware/Common/Analog/Adc.cpp"
+	"Hardware/Common/Analog/Dac.cpp"
+	"Hardware/Common/Display/Type/Font.cpp"
+	"Hardware/Common/Display/Type/Bitmap.cpp"
+	"Hardware/Common/Display/DisplayChar.cpp"
+	"Hardware/Common/Display/DisplayGraphic.cpp"
+	"Hardware/Common/Encoder/Encoder.cpp"
+	"Hardware/Common/Encoder/Encoder_Emul.cpp"
+	"Hardware/Common/Ethernet/Ethernet.cpp"
+	"Hardware/Common/I2C/I2Cmaster.cpp"
+	"Hardware/Common/I2C/I2Cmaster_Emul.cpp"
+	"Hardware/Common/I2C/I2Cslave.cpp"
+	"Hardware/Common/Memory/Memory.cpp"
+	"Hardware/Common/Memory/MemoryImage.cpp"
+	"Hardware/Common/Net/Net.cpp"
+	"Hardware/Common/Net/NetStd.cpp"
+	"Hardware/Common/Net/NetSocket.cpp"
+	"Hardware/Common/Net/Eth/NetEthARP.cpp"
+	"Hardware/Common/Net/Eth/NetEthDHCP.cpp"
+	"Hardware/Common/Net/Eth/NetEthICMP.cpp"
+	"Hardware/Common/Net/Eth/NetEthIP.cpp"
+	"Hardware/Common/Net/Eth/NetEthTransport.cpp"
+	"Hardware/Common/Net/Eth/NetEthTCP.cpp"
+	"Hardware/Common/Net/Eth/NetEthUDP.cpp"
+	"Hardware/Common/Port/Port.cpp"
+	"Hardware/Common/Port/ExtInt.cpp"
+	"Hardware/Common/Rtc/Rtc.cpp"
+	"Hardware/Common/SPI/SPImaster.cpp"
+	"Hardware/Common/SPI/SPIslave.cpp"
+	"Hardware/Common/Timer/Timer.cpp"
+	"Hardware/Common/Touch/Touch.cpp"
+	"Hardware/Common/Uart/Uart.cpp"
+	"Hardware/Common/USB/USBdevice.cpp"
+	"Hardware/Common/USB/USBdevice/USBcontrol.cpp"
+	"Hardware/Common/USB/USBdevice/USBdescriptor.cpp"
+	"Hardware/Common/USB/USBdevice/USBendpoint.cpp"
+	"Hardware/Common/USB/USBdevice/USBinterface.cpp"
+	"Hardware/Common/USB/USBhost.cpp"
+	"Device/Analog/Analog.cpp"
+	"Device/Analog/AnalogIn.cpp"
+	"Device/Analog/AnalogInAdc.cpp"
+	"Device/Analog/AnalogOut.cpp"
+	"Device/Analog/AnalogOutDac.cpp"
+	"Device/Analog/AnalogOutPWM.cpp"
+	"Device/Digital/Digital.cpp"
+	"Device/Screen/ScreenChar.cpp"
+	"Device/Screen/ScreenGraphic.cpp"
+	"Device/Pointer/Pointer.cpp"
+	"Device/Task/TaskManager.cpp"
+	"Device/Terminal/Terminal.cpp"
+	"Control/DigitalButton.cpp"
+	"Control/DigitalEncoder.cpp"
+	"Control/DigitalEncoderJoystick.cpp"
+	"Control/DigitalEncoderRotaryknob.cpp"
+	"Control/DigitalIndicator.cpp"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\system.cpp
+	<windows.h>
+	<stdio.h>
+	<ctype.h>
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\mcu_types.cpp
+	"Mcu.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\mcu.cpp
+	"Mcu.h"
+	"Sys/WSA.cpp"
+	"Sys/LibUSBwrapper.cpp"
+	"Sys/UDPclient.cpp"
+	"Sys/UDPserver.cpp"
+	"Src/Adc_Virtual.cpp"
+	"Src/Dac_Virtual.cpp"
+	"Src/DisplayChar_Virtual.cpp"
+	"Src/DisplayGraphic_Virtual.cpp"
+	"Src/Memory_Mcu.cpp"
+	"Src/NetWin.cpp"
+	"Src/NetWinTCP.cpp"
+	"Src/NetWinUDP.cpp"
+	"Src/Port_Virtual.cpp"
+	"Src/Rtc_Mcu.cpp"
+	"Src/Rtos_Mcu.cpp"
+	"Src/Timer_Mcu.cpp"
+	"Src/Touch_Virtual.cpp"
+	"Src/Uart_File.cpp"
+	"Src/Uart_Serial.cpp"
+	"Src/Uart_Stdio.cpp"
+	"Src/USBhost_Mcu.cpp"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\sys\wsa.cpp
+	"WSA.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\sys\libusbwrapper.cpp
+	"libusb.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\sys\udpclient.cpp
+	"UDPclient.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\sys\udpserver.cpp
+	"UDPserver.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\adc_virtual.cpp
+	"Adc_Virtual.h"
+	"Hardware/ReportID_Hw.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\dac_virtual.cpp
+	"Dac_Virtual.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\displaychar_virtual.cpp
+	"DisplayChar_Virtual.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\displaygraphic_virtual.cpp
+	"DisplayGraphic_Virtual.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\memory_mcu.cpp
+	"Memory_Mcu.h"
+	"Hardware/ReportID_Hw.h"
+	<string.h>
+	<stdio.h>
+	<sys/stat.h>
+	<fcntl.h>
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\netwin.cpp
+	"NetWin.h"
+	<windows.h>
+	<winsock.h>
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\netwintcp.cpp
+	"NetWinTCP.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\netwinudp.cpp
+	"NetWinUDP.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\port_virtual.cpp
+	"Port_Virtual.h"
+	"Sys/UDP_Types.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\rtc_mcu.cpp
+	"Rtc_Mcu.h"
+	"Hardware/ReportID_Hw.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\rtos_mcu.cpp
+	"Rtos_Mcu.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\timer_mcu.cpp
+	"Timer_Mcu.h"
+	"Hardware/ReportID_Hw.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\touch_virtual.cpp
+	"Touch_Virtual.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\uart_file.cpp
+	"Uart_File.h"
+	"Hardware/ReportID_Hw.h"
+	<string.h>
+	<stdio.h>
+	<sys/stat.h>
+	<fcntl.h>
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\uart_serial.cpp
+	"Uart_Serial.h"
+	"Hardware/ReportID_Hw.h"
+	<stdio.h>
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\uart_stdio.cpp
+	"Uart_Stdio.h"
+	"Hardware/ReportID_Hw.h"
+	<stdio.h>
+	<conio.h>
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\usbhost_mcu.cpp
+	<stdio.h>
+	"Sys/libusb.h"
+	"Hardware/ReportID_Hw.h"
+	"USBhost_Mcu.h"
+	<iostream>
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\std\std.cpp
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\std\clock.cpp
+	"Clock.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\std\crc.cpp
+	"Crc.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\std\datapointer.cpp
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\std\fifo.cpp
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\std\sequence.cpp
+	"Sequence.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\std\report.cpp
+	"Report.h"
+	"Hardware/MCU/System.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\std\flag.cpp
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\std\sharedmem.cpp
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\analog\adc.cpp
+	"Adc.h"
+	"Hardware/MCU/System.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\analog\dac.cpp
+	"Dac.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\display\type\font.cpp
+	"Font.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\display\type\bitmap.cpp
+	"Bitmap.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\display\displaychar.cpp
+	"DisplayChar.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\display\displaygraphic.cpp
+	"DisplayGraphic.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\encoder\encoder.cpp
+	"Encoder.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\encoder\encoder_emul.cpp
+	"Encoder.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\ethernet\ethernet.cpp
+	"Hardware/Common/Net/Eth/NetEthARP.h"
+	"Hardware/Common/Net/Eth/NetEthIP.h"
+	"Ethernet.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\i2c\i2cmaster.cpp
+	"I2Cmaster.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\i2c\i2cmaster_emul.cpp
+	"I2Cmaster_Emul.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\i2c\i2cslave.cpp
+	"I2Cslave.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\memory\memory.cpp
+	"Memory.h"
+	"Hardware/ReportID_Hw.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\memory\memoryimage.cpp
+	"MemoryImage.h"
+	"Hardware/ReportID_Hw.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\net.cpp
+	"Net.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\netstd.cpp
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\netsocket.cpp
+	"NetSocket.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\eth\netetharp.cpp
+	"NetEthARP.h"
+	"NetEthTCP.h"
+	"NetEthUDP.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\eth\netethdhcp.cpp
+	"NetEthDHCP.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\eth\netethicmp.cpp
+	"NetEthICMP.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\eth\netethip.cpp
+	"NetEthIP.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\eth\netethtransport.cpp
+	"NetEthTransport.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\eth\netethtcp.cpp
+	"NetEthTCP.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\eth\netethudp.cpp
+	"NetEthUDP.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\port\port.cpp
+	"Port.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\port\extint.cpp
+	"ExtInt.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\rtc\rtc.cpp
+	"Rtc.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\spi\spimaster.cpp
+	"SPImaster.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\spi\spislave.cpp
+	"SPIslave.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\timer\timer.cpp
+	"Timer.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\touch\touch.cpp
+	"Touch.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\uart\uart.cpp
+	"Uart.h"
+	"Hardware/ReportID_Hw.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\usb\usbdevice.cpp
+	"USBdevice.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\usb\usbdevice\usbcontrol.cpp
+	"../USBdevice.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\usb\usbdevice\usbdescriptor.cpp
+	"USBdescriptor.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\usb\usbdevice\usbendpoint.cpp
+	"../USBdevice.h"
+	"Std/Std.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\usb\usbdevice\usbinterface.cpp
+	"../USBdevice.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\usb\usbhost.cpp
+	"USBhost.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\device\analog\analog.cpp
+	"Analog.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\device\analog\analogin.cpp
+	"AnalogIn.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\device\analog\analoginadc.cpp
+	"AnalogInAdc.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\device\analog\analogout.cpp
+	"AnalogOut.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\device\analog\analogoutdac.cpp
+	"AnalogOutDac.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\device\analog\analogoutpwm.cpp
+	"AnalogOutPWM.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\device\digital\digital.cpp
+	"Digital.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\device\screen\screenchar.cpp
+	<stdio.h>
+	<stdarg.h>
+	"ScreenChar.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\device\screen\screengraphic.cpp
+	<stdio.h>
+	<stdarg.h>
+	<math.h>
+	"ScreenGraphic.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\device\pointer\pointer.cpp
+	"Pointer.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\device\task\taskmanager.cpp
+	"TaskManager.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\device\terminal\terminal.cpp
+	<stdarg.h>
+	<string.h>
+	<stdio.h>
+	"Terminal.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\control\digitalbutton.cpp
+	"DigitalButton.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\control\digitalencoder.cpp
+	"DigitalEncoder.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\control\digitalencoderjoystick.cpp
+	"DigitalEncoderJoystick.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\control\digitalencoderrotaryknob.cpp
+	"DigitalEncoderRotaryknob.h"
+
+1718620492 d:\hbrs\sem4\embc++\embsyslib\src\control\digitalindicator.cpp
+	"DigitalIndicator.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\module\rtos\rtos.cpp
+	"Rtos.h"
+	"Std/Report.h"
+	"Module/ReportID_Mod.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\module\rtos\rtos.h
+	"Mcu_Types.h"
+	"Src/Rtos_Mcu.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\module\reportid_mod.h
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\module\usb\usb_uart.cpp
+	"USB_Uart.h"
+	"Std/Report.h"
+	"Std/DataPointer.h"
+	"Module/ReportID_Mod.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\module\usb\usb_uart.h
+	"Mcu_Types.h"
+	"Hardware/Common/USB/USBdevice.h"
+	"Hardware/Common/Uart/Uart.h"
+	"Std/Flag.h"
+	"Std/DataPointer.h"
+	"Module/ReportID_Mod.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\module\usb\usbinterfclasshid.cpp
+	"USBinterfClassHID.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\module\usb\usbinterfclasshid.h
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\module\usb\usbdevicesimpleio.cpp
+	"USBdeviceSimpleIO.h"
+
+1718620493 d:\hbrs\sem4\embc++\embsyslib\src\module\usb\usbdevicesimpleio.h
+
+1718833156 source:d:\hbrs\sem4\embc++\mqttproject\src\message.cpp
+	"Message.h"
+
+1719222158 source:d:\hbrs\sem4\embc++\mqttproject\src\customstring.cpp
+	"CustomString.h"
+
+1719218922 d:\hbrs\sem4\embc++\mqttproject\src\customstring.h
+	"CustomMessage.h"
+	"CustomMessageItem.h"
+	<string>
+
+1719219345 source:d:\hbrs\sem4\embc++\mqttproject\src\custommessageitem.cpp
+	"CustomMessageItem.h"
+
+1719219020 d:\hbrs\sem4\embc++\mqttproject\src\custommessageitem.h
+	<iostream>
+	<string>
+	"EmbSysLib.h"
+
+1719819824 d:\hbrs\sem4\embc++\mqttproject\src\custommessage.h
+	<string>
+	"CustomMessageItem.h"
+	"EmbSysLib.h"
+
+1719310210 source:d:\hbrs\sem4\embc++\mqttproject\src\custommessage.cpp
+	"CustomMessage.h"
+
+1719220033 source:d:\hbrs\sem4\embc++\mqttproject\src\custompayload.cpp
+
+1719219616 d:\hbrs\sem4\embc++\mqttproject\src\custompayload.h
+	"CustomMessage.h"
+	"CustomString.h"
+	<string>
+
