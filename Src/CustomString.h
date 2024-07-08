@@ -1,3 +1,11 @@
+//*******************************************************************
+/*!
+\file   CustomString.h
+\author Khai Minh Mai
+\date   01.07.2024
+\brief  Header for CustomString - a concrete implementation of CustomMessageItem
+*/
+//*******************************************************************
 #ifndef CUSTOMSTRING_H
 #define CUSTOMSTRING_H
 

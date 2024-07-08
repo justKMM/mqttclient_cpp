@@ -1,3 +1,11 @@
+//*******************************************************************
+/*!
+\file   Application.app
+\author Khai Minh Mai
+\date   01.07.2024
+\brief  Source file for Application
+*/
+//*******************************************************************
 #include "Application.h"
 
 using namespace EmbSysLib::Dev;
@@ -29,8 +37,7 @@ void Application::connect(string client_id, string username, string passwd)
     CustomByte protocol_level(&msg, 4);
     CustomByte flags(&msg, 0xC0);
 
-    CustomByte keep_alive_msb(&msg, this->keep_alive_msb);
-    CustomByte keep_alive_lsb(&msg, this->keep_alive_lsb);
+    CustomWord keep_alive_lsb(&msg, this->keep_alive_lsb);
 
     CustomString client_name(&msg, client_id);
 
@@ -38,6 +45,7 @@ void Application::connect(string client_id, string username, string passwd)
     CustomString password(&msg, passwd);
 
     msg.send(socket);
+    last_msg = &msg;
 }
 
 
@@ -60,26 +68,26 @@ void Application::subscribe(string topic)
 
     CustomMessage msg(CustomMessage::MSG_TYPE::SUBSCRIBE);
 
-    CustomByte packet_id_msb(&msg, msg.getPacketIdMSB());
-    CustomByte packet_id_lsb(&msg, msg.getPacketIdLSB());
+    CustomWord keep_alive_lsb(&msg, this->keep_alive_lsb);
 
     CustomString topic_name(&msg, topic);
 
     CustomByte qos(&msg, 1);
 
     msg.send(socket);
+    last_msg = &msg;
 }
 
 void Application::unsubscribe(string topic)
 {
     CustomMessage msg(CustomMessage::MSG_TYPE::UNSUBSCRIBE);
 
-    CustomByte packet_id_msb(&msg, msg.getPacketIdMSB());
-    CustomByte packet_id_lsb(&msg, msg.getPacketIdLSB());
+    CustomWord packet_id(&msg, msg.getPacketIdLSB());
 
     CustomString payload(&msg, topic);
 
     msg.send(socket);
+    last_msg = &msg;
 }
 
 void Application::publish(string topic, string message)
@@ -95,7 +103,12 @@ void Application::publish(string topic, string message)
     CustomString payload(&msg, message);
 
     msg.send(socket);
+    last_msg = &msg;
 }
+//************
+// Hilfsmethoden
+//************
+
 
 //************
 // Eingang
@@ -110,31 +123,41 @@ void Application::onReceive(NetSocket &socketLocal)
     {
         received[counter++] = c;
     }
-
+    bool acknowledged = false;
     switch (received[0])
     {
-        case CustomMessage::MSG_TYPE::CONNACK:
+        case CustomMessage::MSG_TYPE::CONACK:
             this->isMQTTConnected = this->conack(received);
             break;
         case CustomMessage::MSG_TYPE::PUBACK:
-            this->puback(received);
+            acknowledged = this->puback(received);
             break;
         case CustomMessage::MSG_TYPE::SUBACK:
-            this->suback(received);
+            acknowledged = this->suback(received);
             break;
         case CustomMessage::MSG_TYPE::UNSUBACK:
-            this->unsuback(received);
+            acknowledged = this->unsuback(received);
             break;
         case CustomMessage::MSG_TYPE::PUBLISH:
             this->publishReceived(received);
             break;
+        case CustomMessage::MSG_TYPE::PUBLISH_QOS2:
+            this->pubrec(received);
+            break;
+        case CustomMessage::MSG_TYPE::PUBREL:
+            this->pubrel(received);
+            break;
+    }
+    if (acknowledged)
+    {
+        printf("Package acknowledged.\n");
     }
 
 }
 
 bool Application::conack(unsigned char received[])
 {
-    printf("CONNACK package received.\n");
+    printf("CONACK package received.\n");
     if (received[1] < 2)
     {
         printf("ERROR: Package malformed. Rem length not correct.\n");
@@ -155,37 +178,45 @@ bool Application::conack(unsigned char received[])
 }
 
 
-void Application::puback(unsigned char received[])
+bool Application::puback(unsigned char received[])
 {
     printf("PUBACK package received.\n");
     if (received[1] < 2)
     {
         printf("ERROR: Package malformed. Rem length not correct.\n");
-        return;
+        return false;
     }
     printf("Publish acknowledged by Broker.\n");
+    return true;
 }
 
-void Application::suback(unsigned char received[])
+bool Application::suback(unsigned char received[])
 {
     printf("SUBACK package received.\n");
     if (received[1] < 2)
     {
         printf("ERROR: Package malformed. Rem length not correct.\n");
-        return;
+        return false;
     }
     printf("Subscribe acknowledged by Broker.\n");
+    return true;
 }
 
-void Application::unsuback(unsigned char received[])
+bool Application::unsuback(unsigned char received[])
 {
     printf("UNSUBACK package received.\n");
     if (received[1] < 2)
     {
         printf("ERROR: Package malformed. Rem length not correct.\n");
-        return;
+        return false;
+    }
+    if ((last_msg->getPacketIdMSB() != received[3]) || (last_msg->getPacketIdLSB() != received[4]))
+    {
+        printf("ERROR: Packet ID not correct.\n");
+        return false;
     }
     printf("Unsubscribe acknowledged by Broker.\n");
+    return true;
 }
 
 void Application::publishReceived(unsigned char received[])
@@ -199,17 +230,54 @@ void Application::publishReceived(unsigned char received[])
     }
 
     unsigned char *payload = received + 2;
-    // Length of the topic name is given in the next two bytes
     BYTE topic_length = payload[1];
-    payload += 2; // Move past the topic length bytes
+    payload += 2; // skip topic length bytes
     string topic(payload, payload + topic_length);
-    // Move past the topic name
+    // skip topic name
     payload += topic_length;
 
-    // Now payload points to the actual message payload
     BYTE msg_length = rem_len - (2 + topic_length);
 
     string message(payload, payload + msg_length);
     printf("From topic: %s, Message: %s\n", topic.c_str(), message.c_str());
+}
+
+void Application::pubrec(unsigned char received[])
+{
+    // skip header of package
+    unsigned char *payload = received + 2;
+    BYTE topic_length = payload[1];
+    // skip len of topic
+    payload += 2;
+    // skip topic
+    payload += topic_length;
+
+    CustomMessage msg(CustomMessage::MSG_TYPE::PUBREL);
+
+    CustomWord packet_id(&msg, payload[1]);
+
+    msg.send(socket);
+}
+
+void Application::pubrel(unsigned char received[])
+{
+    printf("PUBREL package received.\n");
+    if(received[1] < 2)
+    {
+        printf("ERROR: Package malformed. Rem length is not correct.\n");
+        return;
+    }
+    printf("PUBREC acknowledged by Broker.\n");
+
+    pubcomp(received);
+}
+
+void Application::pubcomp(unsigned char received[])
+{
+    CustomMessage msg(CustomMessage::MSG_TYPE::PUBCOMP);
+
+    CustomWord packet_id(&msg, received[4]);
+
+    msg.send(socket);
 }
 

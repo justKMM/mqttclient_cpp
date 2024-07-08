@@ -1,3 +1,11 @@
+//*******************************************************************
+/*!
+\file   CustomMessage.h
+\author Khai Minh Mai
+\date   01.07.2024
+\brief  Header for CustomMessage - holder of a sequence (list) of CustomMessageItem
+*/
+//*******************************************************************
 #ifndef MESSAGE_H
 #define MESSAGE_H
 #include <string>
@@ -11,18 +19,19 @@ class CustomMessage
     public:
         typedef enum
         {
-            CONNECT = 0x10,
-            CONNACK = 0x20,
-            PUBLISH = 0x30,
-            PUBACK = 0x40,
-            PUBREC = 0x50,
-            PUBREL = 0x60,
-            PUBCOMP = 0x70,
-            SUBSCRIBE = 0x82,
-            SUBACK = 0x90,
+            CONNECT     = 0x10,
+            CONACK      = 0x20,
+            PUBLISH     = 0x30,
+            PUBLISH_QOS2= 0x34,
+            PUBACK      = 0x40,
+            PUBREC      = 0x50,
+            PUBREL      = 0x60,
+            PUBCOMP     = 0x70,
+            SUBSCRIBE   = 0x82,
+            SUBACK      = 0x90,
             UNSUBSCRIBE = 0xA2,
-            UNSUBACK = 0xB0,
-            DISCONNECT = 0xE0
+            UNSUBACK    = 0xB0,
+            DISCONNECT  = 0xE0
         } MSG_TYPE;
         CustomMessage(MSG_TYPE msg_type);
         virtual ~CustomMessage();

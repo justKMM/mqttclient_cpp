@@ -1,3 +1,11 @@
+//*******************************************************************
+/*!
+\file   CustomByte.h
+\author Khai Minh Mai
+\date   01.07.2024
+\brief  Header for CustomByte - a concrete implementation of CustomMessageItem
+*/
+//*******************************************************************
 #ifndef CUSTOMBYTE_H
 #define CUSTOMBYTE_H
 

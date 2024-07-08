@@ -1,3 +1,11 @@
+//*******************************************************************
+/*!
+\file   CustomMessageItem.h
+\author Khai Minh Mai
+\date   01.07.2024
+\brief  Header for CustomMessageItem - which can either be CustomString CustomByte or CustomWord
+*/
+//*******************************************************************
 #ifndef MESSAGEITEM_H
 #define MESSAGEITEM_H
 

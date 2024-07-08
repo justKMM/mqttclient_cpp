@@ -64,10 +64,25 @@ int main(void)
         cout << "\n> Command: ";
 
         getline(cin, command);
-        // If the client is not yet connected with the Broker
-        if (!app.isConnectedWithBroker())
+        if (command == "help" || command == "h")
         {
-            if (command == "connect")
+            cout << "\nAvailable Commands:\n"
+            << "- help | h: Show available commands\n"
+            << "- connect | con: Connect to broker\n"
+            << "- subscribe | sub: Subscribe to topic\n"
+            << "- unsubscribe | unsub: Unsubscribe from topic\n"
+            << "- publish | pub: Publish to topic\n"
+            << "- disconnect: Disconnect from broker\n"
+            << "- end: Terminate programm\n";
+        }
+        else if (command == "end")
+        {
+            break;
+        }
+        // If the client is not yet connected with the Broker
+        else if (!app.isConnectedWithBroker())
+        {
+            if ((command == "connect") || (command == "con"))
             {
                 string client_id;
                 string username;
@@ -96,7 +111,7 @@ int main(void)
         // If the client is connected with the Broker
         else if (app.isConnectedWithBroker())
         {
-            if (command == "connect")
+            if ((command == "connect") || (command == "con"))
             {
                 cout << "\r\nAlready connected\r\n";
                 continue;
@@ -106,7 +121,7 @@ int main(void)
                 app.disconnect();
                 continue;
             }
-            else if (command == "subscribe")
+            else if ((command == "subscribe") || (command == "sub"))
             {
                 string topic;
                 cout << "\n> Topic: ";
@@ -120,7 +135,7 @@ int main(void)
                 cout << "Subscribed to topic " << topic << "\n";
                 continue;
             }
-            else if (command == "unsubscribe")
+            else if ((command == "unsubscribe") || (command == "unsub"))
             {
                 string topic;
                 cout << "\n> Topic: ";
@@ -134,7 +149,7 @@ int main(void)
                 cout << "Unsubscribed to topic " << topic << "\n";
                 continue;
             }
-            else if (command == "publish")
+            else if ((command == "publish") || (command == "pub"))
             {
                 string topic;
                 string message;
@@ -151,10 +166,7 @@ int main(void)
                 cout << "\nPublished to topic " << topic << ", message: " << message << "\n";
                 continue;
             }
-            else if (command == "end")
-            {
-                break;
-            }
+
             else
             {
                 cout << "Command not valid.\n";
@@ -216,100 +228,4 @@ void getIPAddress()
     addr = {ip_1,ip_2,ip_3,ip_4};
 }
 
-////*******************************************************************
-
-//
-////*******************************************************************
-//class myTimerTask : public TaskManager::Task
-//{
-//  public:
-//    //---------------------------------------------------------------
-//    myTimerTask( TaskManager &taskManager )
-//    {
-//      cnt = 0;
-//      taskManager.add( this );
-//    }
-//
-//    //---------------------------------------------------------------
-//    virtual void update( void )
-//    {
-//      cnt++;
-//    }
-//
-//    //---------------------------------------------------------------
-//    DWORD cnt;
-//};
-//
-////*******************************************************************
-//class myRtosTask : public Rtos::Task
-//{
-//  public:
-//    //---------------------------------------------------------------
-//    myRtosTask( Rtos &rtos )
-//    : Rtos::Task( rtos, 500/* stack size*/ )
-//    {
-//      cnt = 0;
-//    }
-//
-//  private:
-//    //---------------------------------------------------------------
-//    virtual void update( void )
-//    {
-//      while(1)
-//      {
-//        cnt++;
-//        pause();  // pause the task until next time slot
-//      }
-//    }
-//
-//  public:
-//    //---------------------------------------------------------------
-//    DWORD cnt;
-//
-//}; //class myTask
-//
-////*******************************************************************
-//Rtos    rtos (    2,   // max num of tasks
-//               1000 ); // time slice in us
-//
-////*******************************************************************
-//int main(void)
-//{
-//  disp.printf(0,0,__DATE__ " " __TIME__);
-//  terminal.printf( __DATE__ " " __TIME__ "\r\n" );
-//
-//  int  num = 0;
-//
-//  myTimerTask timerTask( taskManager );
-//
-//  myRtosTask  rtosTask ( rtos );
-//
-//  rtosTask.start();
-//
-//  while(1)
-//  {
-//    if( char *str = terminal.getString() )
-//    {
-//      terminal.printf( "\r\n=>%s\r\n", str );
-//    }
-//
-//    switch( enc.getEvent() )
-//    {
-//        case DigitalEncoder::LEFT:     num -= 1; break;
-//        case DigitalEncoder::RIGHT:    num += 1; break;
-//        case DigitalEncoder::CTRL_DWN: num  = 0; break;
-//        default:                                 break;
-//    }
-//
-//    if( btnA.getEvent() == Digital::ACTIVATED )
-//    {
-//        led0.toggle();
-//    }
-//
-//    disp.printf( 1, 0, "timer:%-5d ", timerTask.cnt );
-//    disp.printf( 2, 0, "rtos: %-5d ", rtosTask.cnt  );
-//    disp.printf( 3, 0, "num:  %-5d ", num           );
-//    disp.refresh();
-//  }
-//}
 ////EOF

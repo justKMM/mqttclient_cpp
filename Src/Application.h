@@ -3,7 +3,7 @@
 \file   Application.h
 \author Khai Minh Mai
 \date   01.07.2024
-\brief  Header for
+\brief  Header for Application
 */
 //*******************************************************************
 
@@ -11,9 +11,9 @@
 #define APPLICATION_H
 
 #include "CustomMessage.h"
-#include "CustomMessageItem.h"
 #include "CustomString.h"
 #include "CustomByte.h"
+#include "CustomWord.h"
 #include <iostream>
 #include <string>
 using namespace std;
@@ -26,7 +26,6 @@ class Application: public NetSocket::Handler
 public:
     Application(NetWinTCP &tcp, WORD port);
     NetWinTCP::Socket socket;
-    DWORD x=0;
     // Check connection
     virtual bool isConnectedWithBroker() { return isMQTTConnected; };
     // Connect
@@ -35,18 +34,23 @@ public:
     virtual void disconnect();
     // Subscribe
     virtual void subscribe(string topic);
-    virtual void suback(unsigned char received[]);
+    virtual bool suback(unsigned char received[]);
     virtual void unsubscribe(string topic);
-    virtual void unsuback(unsigned char received[]);
+    virtual bool unsuback(unsigned char received[]);
     // Publish
     virtual void publish(string topic, string message);
-    virtual void puback(unsigned char received[]);
+    virtual bool puback(unsigned char received[]);
     virtual void publishReceived(unsigned char received[]);
     // Packet receiver
     virtual void onReceive(NetSocket &socketLocal);
+    // PUBREC - for PUBLISH with QOS 2
+    virtual void pubrec(unsigned char received[]);
+    virtual void pubrel(unsigned char received[]);
+    virtual void pubcomp(unsigned char received[]);
 private:
     bool isMQTTConnected = false;
     int keep_alive_msb = 0;
     int keep_alive_lsb = 255;
+    CustomMessage *last_msg;
 };
 #endif // APPLICATION_H

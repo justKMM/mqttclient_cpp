@@ -992,7 +992,7 @@
 1714906230 d:\hbrs\sem4\embc++\mqttproject\src\wort.h
 	"Anzeige.h"
 
-1719667902 source:d:\hbrs\sem4\embc++\mqttproject\src\main.cpp
+1720105074 source:d:\hbrs\sem4\embc++\mqttproject\src\main.cpp
 	<iostream>
 	"embsyslib.h"
 	"module/rtos/rtos.h"
@@ -1012,14 +1012,14 @@
 
 1718123289 d:\hbrs\sem4\embc++\mqttproject\src\connect.h
 
-1719668874 source:d:\hbrs\sem4\embc++\mqttproject\src\application.cpp
+1720434533 source:d:\hbrs\sem4\embc++\mqttproject\src\application.cpp
 	"Application.h"
 
-1719668492 d:\hbrs\sem4\embc++\mqttproject\src\application.h
+1720440370 d:\hbrs\sem4\embc++\mqttproject\src\application.h
 	"CustomMessage.h"
-	"CustomMessageItem.h"
 	"CustomString.h"
 	"CustomByte.h"
+	"CustomWord.h"
 	<iostream>
 	<string>
 	"EmbSysLib.h"
@@ -1251,21 +1251,21 @@
 	"Mcu_Types.h"
 	"Std/Report.h"
 
-1718620493 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\netwin.h
+1719828703 d:\hbrs\sem4\embc++\embsyslib\src\hardware\mcu\virtual\src\netwin.h
 	"Hardware/Common/Net/Net.h"
 	"Hardware/Common/Net/NetSocket.h"
 	<windows.h>
 	<winsock.h>
 	<stdio.h>
 
-1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\net.h
+1719828703 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\net.h
 	"NetStd.h"
 
 1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\netstd.h
 	"string.h"
 	<stdio.h>
 
-1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\netsocket.h
+1719828703 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\netsocket.h
 	"NetStd.h"
 	"Net.h"
 	"Std/Std.h"
@@ -1400,7 +1400,7 @@
 1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\eth\netethdhcp.h
 	"NetEthUDP.h"
 
-1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\eth\netethudp.h
+1719828703 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\eth\netethudp.h
 	"Hardware/Common/Net/Net.h"
 	"Hardware/Common/Net/Eth/NetEthIP.h"
 	"Hardware/Common/Net/Eth/NetEthTransport.h"
@@ -1412,7 +1412,7 @@
 1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\eth\netethicmp.h
 	"NetEthIP.h"
 
-1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\eth\netethtcp.h
+1719828703 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\eth\netethtcp.h
 	"Hardware/Common/Net/Net.h"
 	"Hardware/Common/Net/Eth/NetEthIP.h"
 	"Hardware/Common/Net/Eth/NetEthTransport.h"
@@ -1506,7 +1506,7 @@
 1719219463 source:d:\hbrs\sem4\embc++\mqttproject\src\custombyte.cpp
 	"CustomByte.h"
 
-1719216926 d:\hbrs\sem4\embc++\mqttproject\src\custombyte.h
+1720434017 d:\hbrs\sem4\embc++\mqttproject\src\custombyte.h
 	"CustomMessage.h"
 	"CustomMessageItem.h"
 
@@ -1795,10 +1795,10 @@
 1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\eth\netethtransport.cpp
 	"NetEthTransport.h"
 
-1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\eth\netethtcp.cpp
+1719828703 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\eth\netethtcp.cpp
 	"NetEthTCP.h"
 
-1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\eth\netethudp.cpp
+1719828703 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\net\eth\netethudp.cpp
 	"NetEthUDP.h"
 
 1718620492 d:\hbrs\sem4\embc++\embsyslib\src\hardware\common\port\port.cpp
@@ -1945,7 +1945,7 @@
 1719222158 source:d:\hbrs\sem4\embc++\mqttproject\src\customstring.cpp
 	"CustomString.h"
 
-1719218922 d:\hbrs\sem4\embc++\mqttproject\src\customstring.h
+1720434035 d:\hbrs\sem4\embc++\mqttproject\src\customstring.h
 	"CustomMessage.h"
 	"CustomMessageItem.h"
 	<string>
@@ -1953,12 +1953,12 @@
 1719219345 source:d:\hbrs\sem4\embc++\mqttproject\src\custommessageitem.cpp
 	"CustomMessageItem.h"
 
-1719219020 d:\hbrs\sem4\embc++\mqttproject\src\custommessageitem.h
+1720434070 d:\hbrs\sem4\embc++\mqttproject\src\custommessageitem.h
 	<iostream>
 	<string>
 	"EmbSysLib.h"
 
-1719819824 d:\hbrs\sem4\embc++\mqttproject\src\custommessage.h
+1720433866 d:\hbrs\sem4\embc++\mqttproject\src\custommessage.h
 	<string>
 	"CustomMessageItem.h"
 	"EmbSysLib.h"
@@ -1972,4 +1972,11 @@
 	"CustomMessage.h"
 	"CustomString.h"
 	<string>
+
+1720434599 source:d:\hbrs\sem4\embc++\mqttproject\src\customword.cpp
+	"CustomWord.h"
+
+1720439566 d:\hbrs\sem4\embc++\mqttproject\src\customword.h
+	<CustomMessageItem.h>
+	"CustomMessage.h"
 
